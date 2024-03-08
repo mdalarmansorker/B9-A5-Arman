@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Ticketing</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="mx-8 md:mx-12 lg:mx-16 mt-2 md:mt-3 lg:mt-4">
+    <header class="mx-8 md:mx-12 lg:mx-24 mt-2 md:mt-3 lg:mt-4">
+      <!-- Navbar -->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Destination</a></li>
+              <li><a href="">Search</a></li>
+            </ul>
+          </div>
+          <a class="text-2xl md:text-3xl lg:text-4xl font-extrabold"
+            >P-Ticket</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Destination</a></li>
+            <li><a href="">Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-[#1DD10066] border-[#1DD100] text-[#1DD100]"
+            >Bus <img src="/images/bus-icon.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <!-- Banner section -->
+      <div class="relative mb-32">
+        <img src="/images/banner.png" class="cover w-full" alt="" />
+        <div
+          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center flex flex-col lg:gap-8"
+        >
+          <h1 class="text-white text-xl lg:text-6xl font-extrabold">
+            End-To-End Travel with
+          </h1>
+          <h1 class="text-[#1DD100] text-xl lg:text-6xl font-extrabold">
+            P Paribahan
+          </h1>
+          <p class="text-white text-sm lg:text-lg">
+            Yes, you can run unit tests and view the results directly within the
+            app. The integrated testing features allow for a streamlined .
+          </p>
+          <a class="btn bg-[#1DD100] border-none mx-auto">Buy Tickets</a>
+        </div>
+        <div class="flex gap-32 justify-center -mt-20">
+          <div class="border-b-4 bg-white border-[#1DD100] rounded-xl">
+            <div class="flex py-10 px-16 gap-4 justify-center">
+              <div>
+                <img src="images/people.png" alt="" />
+              </div>
+              <div>
+                <h3 class="text-3xl font-extrabold">500K+</h3>
+                <p class="text-[#03071299]">Registered User</p>
+              </div>
+            </div>
+          </div>
+          <div class="border-b-4 bg-white border-[#1DD100] rounded-xl">
+            <div class="flex py-10 px-16 gap-4 justify-center">
+              <div>
+                <img src="images/ticket-cupon.png" alt="" />
+              </div>
+              <div>
+                <h3 class="text-3xl font-extrabold">1.7 lacks</h3>
+                <p class="text-[#03071299]">Tickets sold</p>
+              </div>
+            </div>
+          </div>
+          <div class="border-b-4 bg-white border-[#1DD100] rounded-xl">
+            <div class="flex py-10 px-16 gap-4 justify-center">
+              <div>
+                <img src="images/stoppage.png" alt="" />
+              </div>
+              <div>
+                <h3 class="text-3xl font-extrabold">80K+</h3>
+                <p class="text-[#03071299]">Rental partners</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section
+        id="offer"
+        class="flex flex-col justify-center items-center gap-20 mb-20"
+      >
+        <h1 class="text-2xl lg:text-4xl font-extrabold">Best offers for you</h1>
+        <div class="flex flex-col lg:flex-row gap-16">
+          <div class="rounded-3xl flex gap-12 bg-[#FFBF0F] border-none h-72">
+            <div class="pl-24 py-24">
+              <h1 class="text-5xl font-extrabold">15% OFF</h1>
+              <h4 class="text-2xl font-extrabold">on your next purchase</h4>
+              <h4 class="text-2xl font-extrabold text-[#03071280]">
+                use by January 2024
+              </h4>
+            </div>
+            <div class="">
+              <img src="images/info-devider.png" class="h-full" alt="" />
+            </div>
+            <div class="pr-24 py-24 text-center">
+              <h2 class="text-4xl font-bold">NEW15</h2>
+              <p class="text-[#03071280] text-2xl">Coupon Code</p>
+            </div>
+          </div>
+          <div class="rounded-3xl flex gap-12 bg-[#F78C9C] border-none h-72">
+            <div class="pl-24 py-24">
+              <h1 class="text-5xl font-extrabold">20% OFF</h1>
+              <h4 class="text-2xl font-extrabold">on your next purchase</h4>
+              <h4 class="text-2xl font-extrabold text-[#03071280]">
+                use by January 2024
+              </h4>
+            </div>
+            <div class="">
+              <img src="images/info-devider.png" class="h-full" alt="" />
+            </div>
+            <div class="pr-24 py-24 text-center">
+              <h2 class="text-4xl font-bold">Couple 20</h2>
+              <p class="text-[#03071280] text-2xl">Coupon Code</p>
+            </div>
+          </div>
+        </div>
+        <a
+          href=""
+          class="btn text-2xl text-[#1DD100] bg-white border-[#1DD100] font-bold items-center"
+          >See All Offers</a
+        >
+      </section>
+    </main>
+    <footer></footer>
+    <script></script>
+  </body>
+</html>
