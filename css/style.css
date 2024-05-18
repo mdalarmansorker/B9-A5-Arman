@@ -1,0 +1,14 @@
+.active{
+    background-color: #1DD100 !important;
+    color: white;
+}
+.seat:hover{
+    font-weight: bold;
+}
+.booked{
+    background-color: blueviolet !important;
+    color: white; 
+}
+.noHover{
+    pointer-events: none;
+}
