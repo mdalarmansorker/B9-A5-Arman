@@ -8,6 +8,7 @@
 .booked{
     background-color: blueviolet !important;
     color: white; 
+    /* cursor: not-allowed; */
 }
 .noHover{
     pointer-events: none;
